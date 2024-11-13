@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset >
+            <legend style="font-size: 1rem;color:brown;">Travel Reservation Form</legend>
+        <div>
+        <label for="firstName">First Name*</label>
+        <input id="firstName" type="text" name="First name" placeholder="Enter your Surname">
+    </div>
+
+    <div>
+        <label for="lastName" >Last Name*</label>
+        <input id="lastName" type="text" name="Last Name" placeholder="Enter Your Last Name"> 
+    </div>
+    <div>
+        <label for="emailAddrs" >Email Address* </label>
+        <input id="emaliAddrs" type="text" name="Last Name" placeholder="Enter Valid Email Id"> 
+    </div>
+
+<div>
+    <label >Select Tour Package*</label>
+    <input list="selectbelow">
+    <datalist id="selectbelow">
+    <!-- <option >select</option> -->
+    <option >Rajasthan</option>
+    <option >Udaipur</option>
+    <option >Jammu&Kashmir</option>
+    <option >Gulmarg</option>
+    <option >Delhi</option>
+</datalist>
+
+</div>
+<div>
+    <label for="">Arrival Date*</label>
+    <input type="text" placeholder="dd/mm/yyyy"> 
+
+</div>
+<div>
+    <label for="">Number Of Persion*</label>
+    <input type="number" min="1" max="8" placeholder="0">
+</div>
+<div>
+    <label for="">Address*</label>
+    <textarea name="" id="" placeholder="Enter Valid address Only"></textarea >
+</div>
+<div>
+    <fieldset>
+    <legend style="color: brown;" >What Would You Want to Avail?</legend>
+        Boarding<input type="checkbox">
+    Food<input type="checkbox">
+    Sigth seeing<input type="checkbox">
+    All The Above<input type="checkbox">
+</fieldset>
+</div>
+<div>
+    <fieldset>
+        <legend style="color: brown;">Terms And Conditions</legend>
+
+    <label for="radio1">I agree*</label>
+    <input type="radio" name="radio" id="radio1"> 
+    <br>
+
+    <label for="radio2"> I disagree*</label>
+   <input type="radio" name="radio" id="radio2" >
+   
+</fieldset>
+</div>
+
+</fieldset>
+* Are mandotory 
+<input type="submit" value="Save">
+    </form>
+    
+</body>
+</html>

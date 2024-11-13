@@ -1,0 +1,11 @@
+form label{
+    display: inline-block;
+    width: 150px;
+}
+form div{
+    margin: 10px;
+}
+form{
+    background-color:blanchedalmond;
+    display: inline-block;
+}
